@@ -1,3 +1,4 @@
+import CreateUser from './components/create-user/CreateUser';
 import LoginWithPopUp from './components/login-popup/LoginWithPopUp';
 import Login from './components/login/Login';
 import Logout from './components/logout/Logout';
@@ -20,6 +21,7 @@ const App = () => {
 			</AuthProvider>
 			*/}
 			<Users />
+			<CreateUser />
 		</>
 	);
 };
